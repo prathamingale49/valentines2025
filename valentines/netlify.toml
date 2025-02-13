@@ -1,4 +1,7 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = "valentines/out"
   environment = { NODE_ENV = "production" }
+
+[build.environment]
+NODE_VERSION = "18"

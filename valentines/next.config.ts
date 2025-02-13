@@ -1,8 +1,4 @@
 import type { NextConfig } from "next";
-import tsNode from "ts-node";
-
-// Enable ts-node for TypeScript config files
-tsNode.register();
 
 const isProd = process.env.NODE_ENV === "production";
 
